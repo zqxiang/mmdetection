@@ -5,6 +5,7 @@ from .custom import CustomDataset
 from .dataset_wrappers import (ClassBalancedDataset, ConcatDataset,
                                RepeatDataset)
 from .deepfashion import DeepFashionDataset
+from .fruits_nuts import FruitsNutsDataset
 from .lvis import LVISDataset, LVISV1Dataset, LVISV05Dataset
 from .samplers import DistributedGroupSampler, DistributedSampler, GroupSampler
 from .utils import replace_ImageToTensor
@@ -18,5 +19,5 @@ __all__ = [
     'LVISV1Dataset', 'GroupSampler', 'DistributedGroupSampler',
     'DistributedSampler', 'build_dataloader', 'ConcatDataset', 'RepeatDataset',
     'ClassBalancedDataset', 'WIDERFaceDataset', 'DATASETS', 'PIPELINES',
-    'build_dataset', 'replace_ImageToTensor'
+    'build_dataset', 'replace_ImageToTensor', 'FruitsNutsDataset',
 ]
